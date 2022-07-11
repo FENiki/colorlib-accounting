@@ -1,0 +1,206 @@
+{
+    "sourceFile": "aboutus.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 47,
+            "patches": [
+                {
+                    "date": 1628596803830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1628596820361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,48 +16,11 @@\n     />\r\n   </head>\r\n   <body>\r\n     \r\n-    <div class=\"container\">\r\n-      <div class=\"row py-3\">\r\n-        <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-right\">\r\n-          <span class=\"send-massage font-weight-bold py-2\"\r\n-            >ارسال پیام به طرحیتو</span\r\n-          >\r\n-          <form>\r\n-            <label for=\"usr\">نام و نام خانوادگی</label>\r\n-            <input type=\"text\" class=\"form-control\" id=\"usr\" />\r\n-            <label for=\"email\">ایمیل<span class=\"text-danger\">*</span></label>\r\n-            <input type=\"email\" class=\"form-control\" id=\"email\" />\r\n-            <label for=\"phone\">شماره همراه</label>\r\n-            <input type=\"tel\" class=\"form-control\" id=\"phone\" name=\"phone\" />\r\n-            <label for=\"comment\">پیام<span class=\"text-danger\">*</span></label>\r\n-            <textarea class=\"form-control\" rows=\"5\" id=\"comment\"></textarea>\r\n-            <div class=\"text-left pt-2\">\r\n-              <button type=\"submit\" class=\"btn-tarhito btn btn-primary\">\r\n-                ارسال\r\n-              </button>\r\n-            </div>\r\n-          </form>\r\n-        </div>\r\n-        <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-right\">\r\n-          <span class=\"send-massage font-weight-bold py-2\"\r\n-            >ارتباط با طرحیتو</span\r\n-          >\r\n-          <ul class=\"list-unstyled px-0 fontSize-14 py-5 mx-3\">\r\n-            <li><i class=\"color-icon fa fa-phone ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">تلفن:</span><span class=\"font-weight-bold \">021-72304</span> </li>\r\n-            <li><i class=\"color-icon fa fa-envelope ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">ایمیل:</span> <span class=\"font-weight-bold \">support@tarhito.com</span></li>\r\n-            <li><i class=\"color-icon fa fa-map-marker ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">آدرس:</span><span class=\"font-weight-bold fontSize-12\"> تهران بلوار آفریقا(نلسون ماندلا) بلوار صبا پلاک 34</span></li>\r\n-            <li><i class=\"color-icon fa fa-map-signs ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">کد پستی:</span class=\"font-weight-bold \"><span> 191777891</span></li>\r\n-          </ul>\r\n-          <lottie-player src=\"https://assets9.lottiefiles.com/packages/lf20_ok4Lng.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\"   controls autoplay></lottie-player>\r\n-        </div>\r\n-      </div>\r\n-    </div>\r\n \r\n \r\n \r\n-\r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597607702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n   </head>\r\n   <body>\r\n     \r\n \r\n+<\r\n \r\n-\r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597613948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   </head>\r\n   <body>\r\n     \r\n \r\n-<\r\n+<div\r\n \r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597623406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   </head>\r\n   <body>\r\n     \r\n \r\n-<div\r\n+div.container\r\n \r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597629034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n   </head>\r\n   <body>\r\n     \r\n \r\n-div.container\r\n+<div class=\"container\">\r\n+  <div\r\n+</div>\r\n \r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597635078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n \r\n <div class=\"container\">\r\n-  <div\r\n+  div.ro\r\n </div>\r\n \r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597642862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,11 @@\n   <body>\r\n     \r\n \r\n <div class=\"container\">\r\n-  div.ro\r\n+  <div class=\"row\">\r\n+    \r\n+  </div>\r\n </div>\r\n \r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628597653061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    \r\n+    img.imgfluid\r\n   </div>\r\n </div>\r\n \r\n     \r\n"
+                },
+                {
+                    "date": 1628597659674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    img.imgfluid\r\n+    <img src=\"/\" alt=\"\" class=\"imgfluid\">\r\n   </div>\r\n </div>\r\n \r\n     \r\n"
+                },
+                {
+                    "date": 1628597689074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <img src=\"/\" alt=\"\" class=\"imgfluid\">\r\n+    <img src=\"/assets/images/header-img.png\" alt=\"\" class=\"imgfluid\">\r\n   </div>\r\n </div>\r\n \r\n     \r\n"
+                },
+                {
+                    "date": 1628597711511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <img src=\"/assets/images/header-img.png\" alt=\"\" class=\"imgfluid\">\r\n+    \r\n+    <img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n   </div>\r\n </div>\r\n \r\n     \r\n"
+                },
+                {
+                    "date": 1628598051272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,13 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n+\r\n     \r\n-    <img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n   </div>\r\n </div>\r\n-\r\n+<img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628598056508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-\r\n+    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12\r\n     \r\n   </div>\r\n </div>\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n"
+                },
+                {
+                    "date": 1628598066980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12\r\n+    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12\">\r\n+      \r\n+    </div>\r\n     \r\n   </div>\r\n </div>\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n"
+                },
+                {
+                    "date": 1628598075018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12\">\r\n-      \r\n+    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 \">\r\n+\r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n"
+                },
+                {
+                    "date": 1628598082481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 \">\r\n+    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bg-heae\">\r\n \r\n     </div>\r\n     \r\n   </div>\r\n"
+                },
+                {
+                    "date": 1628598098074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,15 +19,15 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bg-heae\">\r\n+    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bg-header\">\r\n+<img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n \r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n-<img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628598246793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bg-header\">\r\n+    <div class=\"col-xl-12 col-lg-6 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n \r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628598261826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n     \r\n \r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n-    <div class=\"col-xl-12 col-lg-6 col-md-12 col-sm-12 col-12 bg-header\">\r\n-<img src=\"/assets/images/header-img.pngheader\" alt=\"\" class=\"imgfluid\">\r\n+    <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n+<img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n     \r\n   </div>\r\n"
+                },
+                {
+                    "date": 1628598502644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     />\r\n   </head>\r\n   <body>\r\n     \r\n-\r\n+<he\r\n <div class=\"container\">\r\n   <div class=\"row\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n"
+                },
+                {
+                    "date": 1628598520637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,18 +16,20 @@\n     />\r\n   </head>\r\n   <body>\r\n     \r\n-<he\r\n-<div class=\"container\">\r\n+<header>\r\n+  <div class=\"container\">\r\n   <div class=\"row\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n+</header>\r\n+\r\n     \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628598537771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   </head>\r\n   <body>\r\n     \r\n <header>\r\n-  <div class=\"container\">\r\n+  <div class=\"container-fl\">\r\n   <div class=\"row\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n"
+                },
+                {
+                    "date": 1628598574812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n   </head>\r\n   <body>\r\n     \r\n <header>\r\n-  <div class=\"container-fl\">\r\n-  <div class=\"row\">\r\n+  <div class=\"container-fluid\">\r\n+  <div class=\"row\" >\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598581453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row\" >\r\n+  <div class=\"row\" max-widt>\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598589482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row\" max-widt>\r\n+  <div class=\"row max-\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598680402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row max-\">\r\n+  <div class=\"row max-width\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598685690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row max-width\">\r\n+  <div class=\"row max-width he\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598976930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row max-width he\">\r\n+  <div class=\"row max-width h\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628598982513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row max-width h\">\r\n+  <div class=\"row max-width h-100%\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628599043043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   <body>\r\n     \r\n <header>\r\n   <div class=\"container-fluid\">\r\n-  <div class=\"row max-width h-100%\">\r\n+  <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1628599293215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-\r\n+<\r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n"
+                },
+                {
+                    "date": 1628599309156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,11 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<\r\n+<h1 class=\"\">\r\n+  \r\n+</h1>\r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n"
+                },
+                {
+                    "date": 1628599316689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n <h1 class=\"\">\r\n-  \r\n+  طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n   </div>\r\n"
+                },
+                {
+                    "date": 1628599332257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"\">\r\n+<h1 class=\"text-center\">\r\n   طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628599348379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center\">\r\n+<h1 class=\"text-center \">\r\n   طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628599357542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center \">\r\n+<h1 class=\"text-center text\">\r\n   طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628599401072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center text\">\r\n+<h1 class=\"text-center text-white m-au\">\r\n   طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628599415829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center text-white m-au\">\r\n+<h1 class=\"text-center text-white m\">\r\n   طرحیتو\r\n </h1>\r\n     </div>\r\n     \r\n"
+                },
+                {
+                    "date": 1628599451538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,11 +21,12 @@\n   <div class=\"container-fluid\">\r\n   <div class=\"row max-width h-100\">\r\n     <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n <img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center text-white m\">\r\n+<h1 class=\"text-center text-white \">\r\n   طرحیتو\r\n </h1>\r\n+\r\n     </div>\r\n     \r\n   </div>\r\n </div>\r\n"
+                },
+                {
+                    "date": 1628599458658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,25 +15,24 @@\n       href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"\r\n     />\r\n   </head>\r\n   <body>\r\n-    \r\n-<header>\r\n-  <div class=\"container-fluid\">\r\n-  <div class=\"row max-width h-100\">\r\n-    <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n-<img src=\"/assets/images/header-img.pngheader\" alt=\"header\" class=\"imgfluid\">\r\n-<h1 class=\"text-center text-white \">\r\n-  طرحیتو\r\n-</h1>\r\n+    <header>\r\n+      <div class=\"container-fluid\">\r\n+        <div class=\"row max-width h-100\">\r\n+          <div class=\"col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bg-header\">\r\n+            <img\r\n+              src=\"/assets/images/header-img.pngheader\"\r\n+              alt=\"header\"\r\n+              class=\"imgfluid\"\r\n+            />\r\n+            <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n+            <span> </span>\r\n+          </div>\r\n+        </div>\r\n+      </div>\r\n+    </header>\r\n \r\n-    </div>\r\n-    \r\n-  </div>\r\n-</div>\r\n-</header>\r\n-\r\n-    \r\n     <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n     <script src=\"/assets/js/popper.min.js\"></script>\r\n     <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n     <script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>\r\n"
+                },
+                {
+                    "date": 1628599474926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n               alt=\"header\"\r\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n-            <span> </span>\r\n+            <span></span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599482733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n               alt=\"header\"\r\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n-            <span></span>\r\n+            <span>پلتفرمی برای ارتب</span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599489725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n               alt=\"header\"\r\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n-            <span>پلتفرمی برای ارتب</span>\r\n+            <span>پلتفرمی برای ارتباط بین</span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599496540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n               alt=\"header\"\r\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n-            <span>پلتفرمی برای ارتباط بین</span>\r\n+            <span >پلتفرمی برای ارتباط بین</span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599502165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n               alt=\"header\"\r\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n-            <span >پلتفرمی برای ارتباط بین</span>\r\n+            <span class=\"d-\">پلتفرمی برای ارتباط بین</span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599510600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n             <span class=\"d-block\">پلتفرمی برای ارتباط بین</span>\r\n-            <\r\n+            <s\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                },
+                {
+                    "date": 1628599525302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n               class=\"imgfluid\"\r\n             />\r\n             <h1 class=\"text-center text-white\">طرحیتو</h1>\r\n             <span class=\"d-block\">پلتفرمی برای ارتباط بین</span>\r\n-            <span>ovdnhv ,</span>\r\n+            <span>ovdnhv </span>\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </header>\r\n"
+                }
+            ],
+            "date": 1628596803830,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"fa\" dir=\"rtl\">\r\n  <head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta\r\n      name=\"viewport\"\r\n      content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\r\n    />\r\n    <title>Tarhito</title>\r\n\r\n    <link rel=\"stylesheet\" href=\"/assets/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/assets/css/style.css\" />\r\n    <link\r\n      rel=\"stylesheet\"\r\n      href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\"\r\n    />\r\n  </head>\r\n  <body>\r\n    \r\n    <div class=\"container\">\r\n      <div class=\"row py-3\">\r\n        <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-right\">\r\n          <span class=\"send-massage font-weight-bold py-2\"\r\n            >ارسال پیام به طرحیتو</span\r\n          >\r\n          <form>\r\n            <label for=\"usr\">نام و نام خانوادگی</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"usr\" />\r\n            <label for=\"email\">ایمیل<span class=\"text-danger\">*</span></label>\r\n            <input type=\"email\" class=\"form-control\" id=\"email\" />\r\n            <label for=\"phone\">شماره همراه</label>\r\n            <input type=\"tel\" class=\"form-control\" id=\"phone\" name=\"phone\" />\r\n            <label for=\"comment\">پیام<span class=\"text-danger\">*</span></label>\r\n            <textarea class=\"form-control\" rows=\"5\" id=\"comment\"></textarea>\r\n            <div class=\"text-left pt-2\">\r\n              <button type=\"submit\" class=\"btn-tarhito btn btn-primary\">\r\n                ارسال\r\n              </button>\r\n            </div>\r\n          </form>\r\n        </div>\r\n        <div class=\"col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-right\">\r\n          <span class=\"send-massage font-weight-bold py-2\"\r\n            >ارتباط با طرحیتو</span\r\n          >\r\n          <ul class=\"list-unstyled px-0 fontSize-14 py-5 mx-3\">\r\n            <li><i class=\"color-icon fa fa-phone ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">تلفن:</span><span class=\"font-weight-bold \">021-72304</span> </li>\r\n            <li><i class=\"color-icon fa fa-envelope ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">ایمیل:</span> <span class=\"font-weight-bold \">support@tarhito.com</span></li>\r\n            <li><i class=\"color-icon fa fa-map-marker ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">آدرس:</span><span class=\"font-weight-bold fontSize-12\"> تهران بلوار آفریقا(نلسون ماندلا) بلوار صبا پلاک 34</span></li>\r\n            <li><i class=\"color-icon fa fa-map-signs ml-2 pb-3\" aria-hidden=\"true\"></i><span class=\"span-color ml-2\">کد پستی:</span class=\"font-weight-bold \"><span> 191777891</span></li>\r\n          </ul>\r\n          <lottie-player src=\"https://assets9.lottiefiles.com/packages/lf20_ok4Lng.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\"   controls autoplay></lottie-player>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n    \r\n    <script src=\"/assets/js/jquery-3.5.1.slim.min.js\"></script>\r\n    <script src=\"/assets/js/popper.min.js\"></script>\r\n    <script src=\"/assets/js/bootstrap.min.js\"></script>\r\n    <script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>\r\n  </body>\r\n</html>\r\n"
+        }
+    ]
+}
